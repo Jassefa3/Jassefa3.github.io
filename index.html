@@ -1,565 +1,138 @@
-<!DOCTYPE html> 
-<html> 
-<!-- Home Begins -->
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UI/UX DESIGNER|APP ENGINEER</title>
-    <link rel="icon" type="image/x-icon" href="./IMG/Favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
-    <link rel="stylesheet" type="text/css" href="./superslides.css">
-    <link rel="stylesheet" type="text/css" href="./owl.carousel.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="./style.css">
+<!DOCTYPE html>
+<html lang="en">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph Assefa — UI/UX Designer & App Engineer</title>
+  <link rel="icon" type="image/x-icon" href="./IMG/Favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
+
 <body>
 
-  
+  <nav id="navigation">
+    <a class="nav-logo" href="#">J.A</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <div class="loader">
-        <div class="inner"></div>
+  <!-- HERO -->
+  <div class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="hero-eyebrow">UI/UX Designer & App Engineer</p>
+        <h1 class="hero-title">Joseph<br><span>Assefa</span></h1>
+        <p class="hero-sub">Software Engineer at JPMorgan Chase — building intelligent,
+          human-centered experiences at the intersection of AI and engineering.</p>
+        <a href="./IMG/Joseph_Assefa_Resume.docx.pdf" target="_blank" class="hero-cta">Download Resume →</a>
+      </div>
+      <div class="hero-image">
+        <img src="./IMG/Joseph.jpg" alt="Joseph Assefa">
+      </div>
     </div>
-
-    <div id="slides">
-        <div class="overlay"></div>
-
-        <div class="slides-container">
-          <img src="./IMG/slide4.jpg" alt="">
-          <img src="./IMG/slide5.jpg" alt="">
-          <img src="./IMG/slide2.jpg" alt="">
-        </div>
-
-        <div class="titleMessage">
-            <div class="heading">
-                <p class="main">JOSEPH ASSEFA</p>
-                <p class="sub typed"></p>
-            </div>
-        </div>
-        <nav class="slides-navigation">
-            <a href="#" class="next"></a>
-            <a href="#" class="prev"></a>
-        </nav>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
     </div>
+  </div>
 
-   
-
-    <!--NAVBAR-->
-
-    
-    <nav id="navigation" class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-    
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#slides">Home</a>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#skills">Skills</a>
-                  </li>
-                <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#work">Work <span class="sr-only">(current)</span></a>
-                </li>
-              
-             
-            </ul>
-           
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-label">About</p>
+    <div class="about-grid">
+      <div class="fade-up">
+        <h2 class="about-title">Hello,<br>I'm Joseph.</h2>
+        <p class="about-text">Specializing in AI and human-centered design, passionate about
+          building intelligent systems that empower people. I bridge the gap between machine learning and
+          intuitive user experiences — turning complex data into products that feel simple.
+        </p>
+        <p class="about-text">I believe the best technology feels effortless to use. When I'm not building or learning,
+          I'm spending time with family, laughing at a good comedy show, or traveling somewhere new.</p>
+        <a href="https://assefajoseph.wixsite.com/sample/services-2" target="_blank" class="about-link">View
+          Testimonials →</a>
+      </div>
+      <div class="fade-up delay-1">
+        <div class="stats-grid">
+          <div class="stat-box"><span class="stat-number">3+</span><span class="stat-label">Years Experience</span>
           </div>
+          <div class="stat-box"><span class="stat-number">52M+</span><span class="stat-label">Users Reached</span>
+          </div>
+          <div class="stat-box"><span class="stat-number">8</span><span class="stat-label">Applications</span></div>
+          <div class="stat-box"><span class="stat-number">22</span><span class="stat-label">Websites</span></div>
         </div>
-      </nav>
-     <!--NAVBAR END-->
-
-        <!-- Resume Section -->
-        <section class="hero firstSec section colored" id="home">
-            <div class="container">
-            <div class="col-xs-6 col-md-4 profilePic">
-                <img src="./IMG/Joseph3.jpg" alt class="img-circle">
-            </div>
-            <div class="heading">
-                <br>
-               
-                <h2 class="example"><span>Focused on creating intuitive, engaging experiences.</span></h2>
-                <a href="./IMG/Design Resume -Assefa, Joseph1.pdf" target="_blank" class="contactButton">DOWNLOAD RESUME</a>
-            </div>
-            </div>
-        </section>
-
-                <!-- END RESUME SECTION -->
-
-    
-<!-- About Begins -->
-
-    <div id="about" class="section">
-
-        <h5 class="space">ABOUT</h5>
-
-            <div class="container">
-
-            
-            <div class="row">
-
-                
-
-                <div class="spacey">
-
-                    <h4> Hello, I'm Joseph.</h4>
-                    <h5> A dedicated, solution-focused designer who codes with a passion for empowering people.
-</h5>
-                    <p> 
-                        Though I know how to design and am a proficient developer, the most important skill I have is the ability to solve problems by making sense of complexities, examining user behaviors/reactions, and creating intuitive experiences that integrate naturally through people's visions. 
-                        To me, this means being able to empathize, observe, ideate, prototype rapidly, and validate peoples vision on a screen.
-                        I value thoughtful interactions, clean design patterns, and working with new people.
-                        Outside of design, I like to spend time with family, go to comedy shows, and travel to different cities any chance I get.
-                        </p>
-                    
-                        <div>
-                            <img class="aboutImage" src="./IMG/Logo.png">
-                        </div>
-                        <a href="https://assefajoseph.wixsite.com/sample/services-2" class="test" target="_blank">Testimonials</a>
-                </div>
-
-            </div>
-
-        </div>
-
-       
+      </div>
     </div>
+  </section>
 
-   
-<!-- Skills Begins-->
-
-<div id="skills" class="skillsSection">
-    <div id="ImageCarouselCSS" class="carousel slide" data-ride="carousel">
-    <div class="my-slider">
-    <div class="container">
-        
-
-    
-    <div class="row">
-
-        <div class="col-md-12 text-center">
-            <h5 class="space">SKILLS</h5>
-            <br>
-            <p>A representation of my proficiency in each skill</p>
-            <p>Lowest possible value: 10% -Used for short period of time such as with a class project.</p>
-            <p class="space1">Highest possible value: 100% -Very extensive experience with this particular skill.</p>
+  <!-- WORK -->
+  <section id="work">
+    <p class="section-label">Recent Work</p>
+    <div class="work-grid">
+      <div class="work-item fade-up">
+        <img src="./IMG/Qutie.png" alt="Qutie App">
+        <div class="work-overlay"><span class="work-tag">App Design</span>
+          <h3 class="work-title">Qutie</h3>
         </div>
-        <br>
-
-        <div class="owl-carousel owl-theme">
-            <div class="skill">
-                <span class="chart" data-percent="80">
-                    <span class="percent">80</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>Creative Cloud</h4>
-                <p>I mostly focus on Illustrator, Photoshop, and After Effects.</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="88">
-                    <span class="percent">88</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>JavaScript</h4>
-                <p>This forms a lart part of my web based projects.</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="90">
-                    <span class="percent">90</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>SEO Optimization</h4>
-                <p> Used everyday in my digital marketing days.
-                    I'll make sure clients are greeted with personality, professionalism, and a hint of humor.</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="100">
-                    <span class="percent">100%</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>SQL Server</h4>
-                <p> I used this often during past projects.</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="90">
-                    <span class="percent">90</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>React.js</h4>
-                <p> I used mainly during my software eingeneer internship. </p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="100">
-                    <span class="percent">100</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>Figma/XD</h4>
-                <p> My goal as a designer is to create a clear, intuitive, and understandable product expierence. 
-                    I build brands through cultural insights & strategic vision.</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="80">
-                    <span class="percent">80</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>JQuery</h4>
-                <p> I used in most of my web based projects.</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="60">
-                    <span class="percent">60</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>Python</h4>
-                <p> I took multiple classes on this when I started coding.</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="100">
-                    <span class="percent">100</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>HTML5/CSS</h4>
-                <p> I learned both of these languages simultaneously in highschool and have been making websites ever since!</p>
-            </div>
-
-            <div class="skill">
-                <span class="chart" data-percent="80">
-                    <span class="percent">80</span>
-                    <canvas height="152" width="152"></canvas>
-                </span>
-                <h4>Java</h4>
-                <p> I use this a lot when working on mobile app development.</p>
-            </div>
-            
+        <div class="work-hover-link"><a href="https://assefajoseph.wixsite.com/sample/about-8" target="_blank">View
+            Project →</a></div>
+      </div>
+      <div class="work-item fade-up delay-1">
+        <img src="./IMG/MGC.png" alt="Mount Gerizim Charity">
+        <div class="work-overlay"><span class="work-tag">Website</span>
+          <h3 class="work-title">Mount Gerizim Charity</h3>
         </div>
-        <!--
-        <h4 class="scroll">Slide Through Skills</h4>
-        <img class="details" src="./IMG/icons8-drag-right.gif">
-        <br>
-         -->
+        <div class="work-hover-link"><a href="https://assefajoseph.wixsite.com/sample/about-1" target="_blank">View
+            Project →</a></div>
+      </div>
+      <div class="work-item fade-up delay-2">
+        <img src="./IMG/PyrateCrew.png" alt="Pyrate Crew">
+        <div class="work-overlay"><span class="work-tag">App Design</span>
+          <h3 class="work-title">Pyrate Crew</h3>
         </div>
-        
-        <br>
+        <div class="work-hover-link"><a
+            href="https://www.figma.com/proto/hoSoQAN7snseZASVnJX1pI/Untitled?node-id=605%3A4692&scaling=scale-down&page-id=535%3A3035&starting-point-node-id=605%3A6439"
+            target="_blank">View Project →</a></div>
+      </div>
+      <div class="work-item fade-up delay-3">
+        <img src="./IMG/Pluto Customz.png" alt="Pluto Customz">
+        <div class="work-overlay"><span class="work-tag">Website</span>
+          <h3 class="work-title">Pluto Customz</h3>
+        </div>
+        <div class="work-hover-link"><a href="https://assefajoseph.wixsite.com/sample/about-1-1" target="_blank">View
+            Project →</a></div>
+      </div>
     </div>
-        </div>
-            </div>
-                </div>
-                    
-<!-- stats Begins -->
+  </section>
 
-<!-- ICONS -->
-
-<div id="stats" class="statsSection">
-
-    <div class="container">
-
-    <div class="row">
-
-        <div class="col-md-3 col-sm-6">
-
-            <div class="squareItem">
-
-                <div class="squareInnerContainer">
-
-                    <div class="squareIcon">
-                        <i class="fa-regular fa-clock"></i>
-                    </div>
-
-                    <div class="squareContent">
-                        <h2 class="counter">5</h2>
-                        <h3>Years Experience</h3>
-                    </div>
-                </div>
-
-                
-            </div>
-
-        </div>
-
-
-        <div class="col-md-3 col-sm-6">
-
-            <div class="squareItem">
-
-                <div class="squareInnerContainer">
-
-                    <div class="squareIcon">
-                        <i class="fa-regular fa-calendar-days"></i>
-                    </div>
-
-                    <div class="squareContent">
-                        <h2 class="counter">55</h2>
-                        <h3>Clients</h3>
-                    </div>
-                </div>
-
-                
-            </div>
-
-        </div>
-
-
-
-        <div class="col-md-3 col-sm-6">
-
-            <div class="squareItem">
-
-                <div class="squareInnerContainer">
-
-                    <div class="squareIcon">
-                        <i class="fa-solid fa-code"></i>
-                    </div>
-
-                    <div class="squareContent">
-                        <h2 class="counter">8</h2>
-                        <h3>Applications</h3>
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>
-
-
-
-        <div class="col-md-3 col-sm-6">
-
-            <div class="squareItem">
-
-                <div class="squareInnerContainer">
-
-                    <div class="squareIcon">
-                        <i class="fa-regular fa-object-group"></i>
-                    </div>
-
-                    <div class="squareContent">
-                        <h2 class="counter">32</h2>
-                        <h3>Websites Made</h3>
-                    </div>
-                </div>
-
-
-<!-- ICONS -->
-                
-            </div>
-
-        </div>
-
-        
-       
-        </div>
-</div>
-    
-<!-- CONTACT -->
-
-    <div id="contact" class="contactSection section">
-
-        <div class="col-md-12 text-center">
-            <p class="subheading">Like What You See?</p>
-            <h2>Let's discuss your next project!</h2>
-            <a href="mailTo:assefa.joseph@gmail.com" class="contactButton">GET IN TOUCH!</a>
-
-        </div>
-
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label">Contact</p>
+    <div class="contact-inner fade-up">
+      <h2 class="contact-title">Let's build something <span>great</span> together.</h2>
+      <a href="mailto:assefa.joseph@gmail.com" class="contact-btn">Get In Touch →</a>
     </div>
+  </section>
 
-<!-- PORTFOLIO -->
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-copy">© 2025 Joseph Assefa</span>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/joseph-a-a6118b213/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.behance.net/josephassefa" target="_blank">Behance</a></li>
+      <li><a href="https://github.com/Jassefa3" target="_blank">GitHub</a></li>
+    </ul>
+  </footer>
 
-
-<div id="work" class="section">
-
-    <div class="container">
-
-    
-    <div class="row">
-
-        <div class="heading">
-            <h5 class="space">RECENT WORK</h5>
-        </div>
-
-        <div class="filter">
-
-            <div id="filters">
-
-
-
-                <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                <li><a id="apps" data-filter=".apps">APPS</a></li>
-                <li><a href="#" data-filter=".websites">WEBSITES</a></li>
-                
-
-            </div>
-        </div>
-
-        <div class="itemsContainer">
-            <ul class="items">
-
-                <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                    <div class="item">
-
-                        <img src="./IMG/Qutie.png">
-
-                        <div class="icons">
-                            <a id="fancyBox" href="./IMG/Qutie.png" title="View image" class="openButton" data-fancybox data-caption="Qutie Mobile Discounting App">
-                                <i class="fa fa-search"></i>
-                            </a>
-
-                            <a href="https://assefajoseph.wixsite.com/sample/about-8" target="_blank" class="projectLink">
-                                <i class="fa fa-link"></i>
-                            </a>
-                        </div>
-
-                        <div class="imageOverlay"></div>
-
-                    </div>
-                </li>
-
-
-                <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                    <div class="item">
-
-                        <img src="./IMG/MGC.png">
-
-                        <div class="icons">
-                            <a id="fancyBox" href="./IMG/MGC.png" title="View image" class="openButton" data-fancybox data-caption="Mount Gerizim Charity">
-                                <i class="fa fa-search"></i>
-                            </a>
-
-                            <a href="https://assefajoseph.wixsite.com/sample/about-1" target="_blank" class="projectLink">
-                                <i class="fa fa-link"></i>
-                            </a>
-                        </div>
-
-                        <div class="imageOverlay"></div>
-
-                    </div>
-                </li>
-
-                <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                    <div class="item">
-
-                        <img src="./IMG/PyrateCrew.png">
-
-                        <div class="icons">
-                            <a id="fancyBox" href="./IMG/PyrateCrew.png" title="View image" class="openButton" data-fancybox data-caption="Digital Nomad Website">
-                                <i class="fa fa-search"></i>
-                            </a>
-
-                            <a href="https://www.figma.com/proto/hoSoQAN7snseZASVnJX1pI/Untitled?node-id=605%3A4692&scaling=scale-down&page-id=535%3A3035&starting-point-node-id=605%3A6439" target="_blank" class="projectLink">
-                                <i class="fa fa-link"></i>
-                            </a>
-                        </div>
-
-                        <div class="imageOverlay"></div>
-
-                    </div>
-                </li>
-
-                <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                    <div class="item">
-
-                        <img src="./IMG/Pluto Customz.png">
-
-                        <div class="icons">
-                            <a id="fancyBox" href="./IMG/Pluto Customz.png" title="View image" class="openButton" data-fancybox data-caption="A sneaker customization website">
-                                <i class="fa fa-search"></i>
-                            </a>
-
-                            <a href="https://assefajoseph.wixsite.com/sample/about-1-1" target="_blank" class="projectLink">
-                                <i class="fa fa-link"></i>
-                            </a>
-                        </div>
-
-                        <div class="imageOverlay"></div>
-
-                    </div>
-                </li>
-
-
-
-            </ul>
-        </div>
-
-
-
-
-
-
-    
-    </div>
-</div>
-</div>
-
-<!-- COPYWRIGHT-->
-
-<footer class="">
-<div class="copyrightSection">
-
-    <div class="col-md-12 text-center">
-        <a>&copy; Copyright Joseph Assefa 2022</a>
-    </div>
-<div class="navbar-nav">
-        <ul class="social-link">
-
-            
-                <a href="https://www.linkedin.com/in/joseph-a-a6118b213/">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-              
-
-         
-            <a href="https://www.behance.net/josephassefa">
-                <i class="fa-brands fa-square-behance"></i>
-            </a>
-          
-
-          
-            <a href="https://github.com/Jassefa3">
-                <i class="fa-brands fa-square-github"></i>
-            </a>
-          
-
-        </ul>
-    </div>
-</div>
-
-</footer> 
-    
-    <script src="https://kit.fontawesome.com/e4364364a6.js" crossorigin="anonymous"></script>
-    <script src="./JS/countUp.js"></script>
-    <script src="./JS/countUp-jquery.js"></script>
-    
-    <script src="./JS/jquery.superslides.min.js"></script>
-    <script src="./JS/jquery.easypiechart.min.js"></script>
-    <script src="./JS/owl.carousel.min.js"></script>
-    <script src="./JS/typed.min.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>    
-    <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
-    <script src="./JS/script.js"></script>
-    
+  <script src="https://kit.fontawesome.com/e4364364a6.js" crossorigin="anonymous"></script>
+  <script src="./JS/script.js"></script>
 </body>
-</html>
 
+</html>
